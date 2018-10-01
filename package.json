@@ -1,0 +1,15 @@
+{
+  "name": "jsfundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "light-server -s ./dist -b localhost -w ./dist/** -p 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.5.1"
+  }
+}
